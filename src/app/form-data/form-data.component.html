@@ -1,9 +1,2 @@
-<p > form-data works!</p>
-<form id="form" [formGroup]="form">
-    <div class="rowForm" *ngFor="let formField of formFields">
-        <label>{{formField.name}}</label>
-   
-            <input type="{{formField.type}}" value="{{formField.name}}" formControlName="{{formField.name}}">
-    </div>
-    <button type="submit" value="submit" (click)="submit()" [disabled]="this.form.invalid">Submit</button>
-</form>
+
+
